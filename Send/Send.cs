@@ -10,7 +10,7 @@ namespace Send
         {
             //var factory = new ConnectionFactory() { HostName = "localhost" };
 
-            var factory = new ConnectionFactory() { HostName = "10.30.3.50",UserName="test",Password="test" };           
+            var factory = new ConnectionFactory() { HostName = "localhost",UserName="test",Password="test" };           
 
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
