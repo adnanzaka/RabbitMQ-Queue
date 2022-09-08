@@ -21,7 +21,7 @@ namespace Send
                                      autoDelete: false,
                                      arguments: null);
 
-                string message = "MB229558709AE";
+                string message = "abc";
                 var body = Encoding.UTF8.GetBytes(message);
 
                 channel.BasicPublish(exchange: "",
